@@ -1,13 +1,13 @@
 {% set name = "rai-sdk" %}
-{% set version = "0.7.4" %}
+{% set version = "0.7.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f02e95a19b40698151cc70d67a62f5b02be0327489c4717eccbd6b919c6a66ff
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rai_sdk-{{ version }}.tar.gz
+  sha256: d75a77126cabd95b3b946631cf4de7a694e9a8f23e6946decd2f31cd3c07a518
 
 build:
   number: 0
